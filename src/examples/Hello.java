@@ -50,12 +50,7 @@ public final class Hello extends HttpServlet {
 
         writer.println("This is the output of a servlet that is part of");
         writer.println("the Hello, World application.");
-<script>//javascript code
-a=15;//initialization of variables
-b=20;
-c=a+b;//perform sum operation
-document.write("sum of numbers is: " +c);//print the result(+ is a concatenate operator)
-</script>
+
         writer.println("</body>");
         writer.println("</html>");
     }
